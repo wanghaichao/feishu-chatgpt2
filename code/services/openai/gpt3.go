@@ -31,7 +31,7 @@ var AIModeStrs = []string{
 }
 
 const (
-	maxTokens = 128000
+	maxTokens = 10000
 	engine    = "gpt-4-turbo-preview"
 )
 
