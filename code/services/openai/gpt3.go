@@ -31,8 +31,8 @@ var AIModeStrs = []string{
 }
 
 const (
-	maxTokens = 2000
-	engine    = "gpt-4-1106-preview"
+	maxTokens = 128000
+	engine    = "gpt-4-turbo-preview"
 )
 
 type Messages struct {
